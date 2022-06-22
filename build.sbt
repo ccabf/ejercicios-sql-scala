@@ -6,3 +6,4 @@ lazy val root = (project in file("."))
   .settings(
     name := "ejercicios-sql-scala"
   )
+libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.29"
